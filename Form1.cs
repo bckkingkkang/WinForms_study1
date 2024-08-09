@@ -24,10 +24,10 @@ namespace kahyun_WinFormsApp1
 
             if(userId.Equals("myId") && userPasswod.Equals("myPassword"))
             {
-                MessageBox.Show("로그인에 성공했습니다.", "로그인");
+                MessageBox.Show("로그인에 성공했습니다.","로그인 성공");
             } else
             {
-                MessageBox.Show("로그인에 실패했습니다.", "로그인");
+                MessageBox.Show("로그인에 실패했습니다.", "로그인 실패");
             }
         }
 

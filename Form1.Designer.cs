@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.id = new System.Windows.Forms.TextBox();
-            this.password = new System.Windows.Forms.TextBox();
             this.loginBtn = new System.Windows.Forms.Button();
+            this.password = new System.Windows.Forms.TextBox();
+            this.id = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -44,21 +44,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "로그인";
             // 
-            // id
-            // 
-            this.id.Location = new System.Drawing.Point(170, 109);
-            this.id.Name = "id";
-            this.id.Size = new System.Drawing.Size(342, 21);
-            this.id.TabIndex = 1;
-            // 
-            // password
-            // 
-            this.password.Location = new System.Drawing.Point(170, 170);
-            this.password.Name = "password";
-            this.password.PasswordChar = '*';
-            this.password.Size = new System.Drawing.Size(342, 21);
-            this.password.TabIndex = 2;
-            // 
             // loginBtn
             // 
             this.loginBtn.Location = new System.Drawing.Point(170, 233);
@@ -68,6 +53,21 @@
             this.loginBtn.Text = "로그인";
             this.loginBtn.UseVisualStyleBackColor = true;
             this.loginBtn.Click += new System.EventHandler(this.loginBtn_Click);
+            // 
+            // password
+            // 
+            this.password.Location = new System.Drawing.Point(170, 170);
+            this.password.Name = "password";
+            this.password.PasswordChar = '*';
+            this.password.Size = new System.Drawing.Size(342, 21);
+            this.password.TabIndex = 2;
+            // 
+            // id
+            // 
+            this.id.Location = new System.Drawing.Point(170, 109);
+            this.id.Name = "id";
+            this.id.Size = new System.Drawing.Size(342, 21);
+            this.id.TabIndex = 1;
             // 
             // Form1
             // 
@@ -88,9 +88,9 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox id;
-        private System.Windows.Forms.TextBox password;
         private System.Windows.Forms.Button loginBtn;
+        private System.Windows.Forms.TextBox password;
+        private System.Windows.Forms.TextBox id;
     }
 }
 
