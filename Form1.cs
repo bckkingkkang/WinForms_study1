@@ -17,11 +17,20 @@ namespace kahyun_WinFormsApp1
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void loginBtn_Click(object sender, EventArgs e)
         {
-            label1.Text = "Hello World!";
+            string userId = id.Text;
+            string userPasswod = password.Text;
+
+            if(userId.Equals("myId") && userPasswod.Equals("myPassword"))
+            {
+                MessageBox.Show("로그인에 성공했습니다.", "로그인");
+            } else
+            {
+                MessageBox.Show("로그인에 실패했습니다.", "로그인");
+            }
         }
 
-       
+      
     }
 }
