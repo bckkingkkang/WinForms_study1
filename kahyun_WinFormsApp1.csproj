@@ -46,25 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NewFolder1\Form1.cs">
+    <Compile Include="practice\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NewFolder1\Form1.Designer.cs">
+    <Compile Include="practice\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="NewFolder1\Form2.cs">
+    <Compile Include="practice\Form2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NewFolder1\Form2.Designer.cs">
+    <Compile Include="practice\Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="practice\Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="practice\Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="NewFolder1\Form1.resx">
+    <EmbeddedResource Include="practice\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewFolder1\Form2.resx">
+    <EmbeddedResource Include="practice\Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="practice\Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

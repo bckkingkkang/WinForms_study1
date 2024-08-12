@@ -1,4 +1,5 @@
-﻿using System;
+﻿using kahyun_WinFormsApp1.practice;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,8 +17,9 @@ namespace kahyun_WinFormsApp1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            /*Application.Run(new Form1());*/
-            Application.Run(new Form2());
+            /*Application.Run(new Form1());
+            Application.Run(new Form2());*/
+            Application.Run(new Form3());
         }
     }
 }

@@ -1,5 +1,4 @@
 ﻿using System;
-
 using System.Windows.Forms;
 
 namespace kahyun_WinFormsApp1
