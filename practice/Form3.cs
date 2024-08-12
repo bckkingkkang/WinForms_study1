@@ -247,5 +247,10 @@ namespace kahyun_WinFormsApp1.practice
             currentOperator = Operators.None;
             display.Text = "0";
         }
+
+        private void btnDot_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
