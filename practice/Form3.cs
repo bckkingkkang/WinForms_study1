@@ -23,7 +23,9 @@ namespace kahyun_WinFormsApp1.practice
         }
         
         // 초기값 세팅
+        // 열거형 변수
         Operators currentOperator = Operators.None;
+        // 연산자가 눌렸는지 확인
         Boolean operatorChangeFlag = false;
         int firstOper = 0;
         int secondOper = 0;
@@ -79,7 +81,6 @@ namespace kahyun_WinFormsApp1.practice
 
 
         // 연산자 버튼 클릭 시
-
         private void btnPlus_Click(object sender, EventArgs e)
         {
             // 덧셈
@@ -119,7 +120,7 @@ namespace kahyun_WinFormsApp1.practice
                 display.Text = "";
                 operatorChangeFlag = false;
             }
-            String strNumber = display.Text += "2";
+            String strNumber = display.Text += "0";
             int intNumber = Int32.Parse(strNumber);
             display.Text = intNumber.ToString();
         }
@@ -131,7 +132,14 @@ namespace kahyun_WinFormsApp1.practice
                 display.Text = "";
                 operatorChangeFlag = false;
             }
-            String strNumber = display.Text += "1";
+            /*String strNumber = display.Text += "1";*/
+
+            // 1. "1"을 display.Text에 덧붙인다.
+            display.Text = display.Text + "1";
+
+            // 2. 덧붙인 결과를 strNumber 변수에 저장한다.
+            String strNumber = display.Text;
+
             int intNumber = Int32.Parse(strNumber);
             display.Text = intNumber.ToString();
         }
@@ -230,6 +238,14 @@ namespace kahyun_WinFormsApp1.practice
             String strNumber = display.Text += "9";
             int intNumber = Int32.Parse(strNumber);
             display.Text = intNumber.ToString();
+        }
+
+        private void btnAC_Click(object sender, EventArgs e)
+        {
+            firstOper = 0;
+            secondOper = 0;
+            currentOperator = Operators.None;
+            display.Text = "0";
         }
     }
 }

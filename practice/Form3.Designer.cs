@@ -140,6 +140,7 @@
             this.btnAC.TabIndex = 12;
             this.btnAC.Text = "AC";
             this.btnAC.UseVisualStyleBackColor = false;
+            this.btnAC.Click += new System.EventHandler(this.btnAC_Click);
             // 
             // btnMin
             // 
