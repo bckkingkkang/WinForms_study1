@@ -28,3 +28,7 @@
 ## ASP.NET
 .NET과 C# 프로그래밍 언어를 사용해 웹 앱과 웹 서비스를 만들기 위한 프레임워크
 * HTTP, HTTPS, FTP, XML, JSON 등 다양한 프로토콜 사용
+
+
+## C# 라이브러리
+* [재사용성과 유지보수](https://blog.naver.com/bc_pokemonmaster/223596738408)
